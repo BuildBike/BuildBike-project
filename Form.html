@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+      
+    
+    <div class="container">
+        <div class="div_card">
+        <label   for="text">Name:</label>
+        <input  type="text" autofocus placeholder="Your name"  class="name"required></input>
+        <label for="text">Email:</label>
+        <input type="email" id="email" class="email" placeholder="E-mail" required></input>
+        <label for="text">Birth Day:</label>
+        <input type="date" id="start" class="date" placeholder="Your birthday"  min="1960-01-01" max="2022-01-01" required></input>
+       <label for="phone">Phone number:</label>
+       <input type="number"  minlength="8" id="phone" class="number" placeholder="Your Phone number here " required></input>
+       <label for="text" >Suggestions:</label>
+       <input type="text" id="input_suggestions" class="text" placeholder="Your suggestions..." required></input>
+       <button  onclick="aler()" type="submit" id="submit"><img src="png/logo5.png" id="minilogo"></button>
+         </div>
+    
+           <div class="div_information_card">
+              <ul class="list">
+                <li><img src="png\location icon.png"><b>Adress:</b> RBK, Bloc B24, Elgazala Technopark, Raoued, Gouvernorat de l’Ariana, 2088 Ariana – Tunisie.</li>
+                 <li><img src="png\1608790_phone_icon.png"><b>Phone</b>: 28145532//98709748</li>
+                 <li><img src="png\email.png"><b>Email</b>: Foulenbenfoulen@420.com</li>
+                 <li><img src="png\web icon.png"><b>Web site</b>: Click <a href="project.html"> HERE </a></li>
+             </ul>
+          </div>
+
+     </div>
+            <script src="From.js"></script>
+         
+    </body>
+</html>

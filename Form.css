@@ -1,0 +1,106 @@
+body {
+
+background-color: #353032;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+#input_suggestions {
+    width:300px;
+    height: 100px;
+}
+.div_card {
+    background-color: #959393;
+    width: 50%;
+display:flex;
+flex-direction:column;
+-webkit-border-radius: 9px 0px 0px 9px;
+border-radius: 9px 0px 0px 9px;
+
+}
+input{
+    margin:10px;
+    width: fit-content;
+}
+.container{
+    background-color: #353032;
+    width: 60%;
+    border: 1px;
+    -webkit-box-shadow: -2px 4px 11px 6px rgba(130, 130, 130, 0.722); 
+    box-shadow: -2px 4px 11px 6px rgba(130, 130, 130, 0.722);
+    display: flex;
+    flex-direction: row;
+    -webkit-border-radius: 9px 9px 9px 9px;
+border-radius: 9px 9px 9px 9px;
+    }  
+img {
+ height: 20px;
+    width:22px;
+    margin-right: 10px;
+}
+li {margin: 22px;
+    color:  rgb(255, 255, 255);
+    list-style-type: none;
+}
+.list{display: flex;
+    flex-direction: column;
+   
+}
+.div_information_card{
+    width: 50%;
+    background-color: #b4b4b4;
+    -webkit-border-radius: 0px 9px 9px 0px;
+border-radius: 0px 9px 9px 0px;
+}
+label{
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 13px;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #fff5f5;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+#submit {
+    width: 100px;
+    height:40px;
+    background-color: #000000;
+    border: none;
+    color: rgb(211, 174, 174);
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 93px;
+    transform: scale(1);
+    transition: transform  0.5s ease-in-out;
+  }
+  #submit:active{
+    background-color: rgb(255, 0, 0);
+    transform: scale(0.01);
+  }
+input:hover{
+    background-color:rgb(185, 184, 184);
+}
+
+#minilogo{
+    margin-left: 9px;
+    width: 35px;
+    height: 23px;
+}
+
+.toHide {
+    display: none;
+}
+.toShow{
+    display: contents;
+}
